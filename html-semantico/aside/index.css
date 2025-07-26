@@ -1,5 +1,5 @@
-div.sidebar-esquerda,
-div.sidebar-direita{
+aside.sidebar-esquerda,
+aside.sidebar-direita{
     width: 250px;
     height: 100vh;
     background-color: #333;
