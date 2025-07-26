@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utlizandp css para estilizar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Exemplo utlizandp css para estilizar no lugar da utlização de tags/atributos deprecatd(depreciados)</h1>
+
+    <h2 class="texto-centralizado texto-normal">Meu texto <span class="texto-realce">centalizado</span></h2>
+    <div class="marquee-container">
+        <span class="marquee">Essa é uma mensagem extremamente importante! Estamos estilizando com CSS para simular a tag<code>&lt;</code></span>
+    </div>
+    <div>
+        <p>
+            <span class="texto-sublinhado">Texto em sublinhado:</span>
+            Foi definido como negrito utilizando <code>text-decoration: underline</code> no CSS
+        </p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th class="coluna codigo">Codigo</th>
+                <th class="coluna-nome">nome</th>
+            </tr>
+        </thead>
+        <tbody>
+              <tr>
+                <td>
+                    <a href="https//google.com">1</a></td>
+                <td>Maçã</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https//google.com?query=2">2</a></td>
+                <td>
+                    <a href="https//google.com?query=pizzadecalabresa"></a>Pizza de Frango</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>X-tudo</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Feijão com arroz</td>
+            </tr>
+        </tbody>
+    </table>
+    <img src="data:image/png;base64,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" alt="">
+</body>
+</html>
