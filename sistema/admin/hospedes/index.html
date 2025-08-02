@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelPro - Hospedes</title>
+    <link rel="stylesheet" href="../../assets/css/admin/pages/hospedes/index.css">
+</head>
+<body>
+    <header>
+        <h1>SHotelPro - Hospedes</h1>
+        <nav>
+                <ul>
+                    <li><a href="../dashboard">Inicio</a></li>
+                    <li><a href="../hospedes">Hospedes</a></li>
+                    <li><a href="../reservas">Reservas</a></li>
+                    <li><a href="../quartos">Quartos</a></li>
+                    <li><a href="../servicos">Serviços</a></li>
+                    <li><a href="../relatorios">Relatorios</a></li>
+                    <li><a href="../configuracoes">Configurações</a></li>
+                    <li><a href="../logout">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+       <div class="hospedes-header">
+        <h2>Hospedes</h2>
+        <a href="novo.html" class="btn"> ➕ Adicionar Hospede </a>
+       </div>
+       <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Check-in</th>
+                    <th>Chck-out</th>
+                    <th>Quarto</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mariana Souza</td>
+                    <td>123.456.789-10</td>
+                    <td>20/07/2025</td>
+                    <td>25/07/2025</td>
+                    <td>101</td>
+                    <td>
+                        <a href="editar/101" class="btn"><i class="fa-solid fa-pencil"></i></a>
+                        <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>892.381.219-20</td>
+                    <td>22/07/2025</td>
+                    <td>28/07/2025</td>
+                    <td>202</td>
+                    <td>
+                        <a href="editar/202" class="btn"><i class="fa-solid fa-pencil"></i></a>
+                        <button class="btn"><i class="fa-solid fa-trash"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+       </div>
+    </main>
+       <footer>
+          &copy; 2025 HotelSys. Todos os direitos reservados.
+       <footer>
+        <script src="https://kit.fontawesome.com/4607e888df.js" crossorigin="anonymous"></script>
+</body>
+</html>

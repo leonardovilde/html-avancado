@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelPro - Reservas</title>
+    <link rel="stylesheet" href="../../assets/css/admin/pages/reservas/index.css">
+</head>
+<body>
+    <header>
+        <h1>HotelPro - Reservas</h1>
+        <nav>
+                <ul>
+                    <li><a href="../dashboard">Inicio</a></li>
+                    <li><a href="../hospedes">Hospedes</a></li>
+                    <li><a href="../reservas">Reservas</a></li>
+                    <li><a href="../quartos">Quartos</a></li>
+                    <li><a href="../servicos">Serviços</a></li>
+                    <li><a href="../relatorios">Relatorios</a></li>
+                    <li><a href="../configuracoes">Configurações</a></li>
+                    <li><a href="../logout">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+       <div class="reservas-header">
+          <h2>Reservas</h2>
+          <a href="novo.html" class="btn"><i class="fa-solid fa-plus"></i>Adicionar Reserva</a>
+       </div>
+       <div class="filter-bar">
+        <input type="date" id="fromDate" placeholder="Data Inicio">
+        <input type="date" id="todate" placeholder="Data fim">
+        <button class="btn">Filtrar</button>
+       </div>
+
+       <div class="cards-grid">
+        <div class="reservation-card">
+            <div class="card-header">Reserva #00123</div>
+            <div class="card-body">
+                <p><strong>Hospedes</strong> Ana costa</p>
+                  <p><strong>Quarto</strong> 202 (casal)</p>
+                    <p><strong>Check-in</strong> 30/07/2025</p>
+                      <p><strong>Check-Out</strong> 01/08/2025</p>
+                        <p><strong>Convidados</strong> 2 Adultos</p>
+            </div>
+            <div class="card-actions">
+                <a href="editar/123" class="btn"><i class="fa-solid fa-pencil"></i>Editar</a>
+                <button class="btn"><i class="fa-solid fa-trash"></i>Cancelar</button>
+            </div>
+            </div>
+            <div class="reservation-card">
+            <div class="card-header">Reserva #00124</div>
+            <div class="card-body">
+                <p><strong>Hospedes</strong> João</p>
+                  <p><strong>Quarto</strong> 305 (solteiro)</p>
+                    <p><strong>Check-in</strong> 30/07/2025</p>
+                      <p><strong>Check-Out</strong> 01/08/2025</p>
+                        <p><strong>Convidados</strong> 1 Adultos</p>
+            </div>
+            <div class="card-actions">
+                <a href="editar/124" class="btn"><i class="fa-solid fa-pencil"></i>Editar</a>
+                <button class="btn"><i class="fa-solid fa-trash"></i>Cancelar</button>
+            </div>
+            </div>
+        </div>
+       </div>
+    </main>
+       <footer>
+          &copy; 2025 HotelSys. Todos os direitos reservados.
+       <footer>
+</body>
+</html>
