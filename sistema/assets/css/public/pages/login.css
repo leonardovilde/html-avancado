@@ -89,3 +89,55 @@ main{
         }
     }
 }
+
+.divider{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 0 0.75rem;
+    color: #555;
+    font-size: 0.9rem;
+    &::before,
+    &::after{
+        content: "";
+        height: 1px;
+        background-color: #ddd;
+        flex: 1;
+    }
+}
+
+.oauth-buttons{
+    display: flex;
+    gap: .5rem;
+    margin-top: .5rem;
+}
+
+.btn-oauth{
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    background-color: #fff;
+    color: #111;
+    border: 1px solid #ccc;
+    padding: .6rem .75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+    min-width: 0;
+    line-height: 1.1;
+
+    &:hover{
+        cursor: pointer;
+        background-color: #f7f7f7;
+    }
+}
+
+.icon-google svg,
+.icon-microsoft svg{
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
