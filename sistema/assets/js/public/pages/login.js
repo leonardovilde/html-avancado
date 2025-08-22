@@ -1,11 +1,11 @@
-document.getElementById("loginForm").addEventListener("submit", function (e){
+document.getElementById("loginForm").addEventListener("submit", function (e) {
     e.preventDefault();
-    const usuario = document.getElementById("usuario").ariaValueMax.trim();
-    const senha = document.getElementById("senha").ariaValueMax.trim();
+    const usuario = document.getElementById("usuario").value.trim();
+    const senha = document.getElementById("senha").value.trim();
 
-    if(usuario === "root" && senha === "admin"){
+    if (usuario === "root" && senha === "admin") {
         window.location.href = "admin/dashboard"
-    }else{
-        alert("Credenciais inválidas. Tente Novamente")
+    } else {
+        alert("Credenciais inválidas. Tente novamente.")
     }
 })
