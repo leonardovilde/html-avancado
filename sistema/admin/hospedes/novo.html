@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HotelPro - Relatórios</title>
+    <link rel="stylesheet" href="../../assets/css/admin/pages/hospedes/novo.css">
+</head>
+<body>
+    <header>
+        <h1>HotelPro - Adicionar Hospede </h1>
+        <nav>
+            <ul>
+                <li><a href="../dashboard">Inicio</a></li>
+                <li><a href="../hospedes">Hóspedes</a></li>
+                <li><a href="../reservas">Reservas</a></li>
+                <li><a href="../quartos">Quartos</a></li>
+                <li><a href="../servicos">Serviços</a></li>
+                <li><a href="../relatorios">Relatórios</a></li>
+                <li><a href="../configuracoes">Configurações</a></li>
+                <li><a href="../logout">Sair</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hospedes-header">
+            <h2>Adicionar Hospede</h2>
+            <a href="index.html" class="btn">
+                <i class="fa-solid fa-arrow-left"></i> Voltar
+            </a>
+        </div>
+        <div class="form-container">
+            <form action="#" id="formHospede">
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite o Nome Completo" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpf">CPF</label>
+                    <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                </div>
+                <div class="form-group">
+                    <label for="nascimento">Data de Nascimento</label>
+                    <input type="date" id="nascimento" name="nascimento" required>
+                </div>
+                <div class="form-group">
+                    <label for="observacoes">Observações</label>
+                    <textarea id="observacoes" name="observacoes" rows="4" placeholder="Anotações Extras..." required></textarea>
+                </div>
+                 <div class="form-actions">
+                    <a href="index.html" class="btn">Cancelar</a>
+                    <button type="submit" class="btn">Salvar Hospede</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 HotelPro. Todos os direitos reservados.
+    </footer>
+    <script src="https://kit.fontawesome.com/4607e888df.js" crossorigin="anonymous"></script>
+</body>
+</html>
