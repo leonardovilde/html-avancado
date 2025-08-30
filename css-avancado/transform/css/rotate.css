@@ -1,0 +1,64 @@
+.rotate-45{
+    background-color: #3498db;
+    transform: rotate(45deg);
+
+        transition: transform 1s ease;
+
+    &:hover{
+        transform: rotate(0deg);
+    }
+}
+
+.rotate-90{
+    background-color: #e74c3c;
+    transform: rotate(90deg);
+
+        transition: transform 1s ease;
+
+    &:hover{
+        transform: rotate(0deg);
+    }
+}
+
+.rotate-180{
+    background-color: #2ecc71;
+    transform: rotate(180deg);
+
+    transition: transform 1s ease;
+
+    &:hover{
+        transform: rotate(0deg);
+    }
+}
+
+.rotate-hover{
+    background-color: #9b49b6;
+
+    &:hover{
+        transform: rotate(15deg);
+    }
+
+}
+
+.rotate-hover::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    border: 2px solid  #9b49b6;
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.rotate-hover:hover::before{
+    transform: rotate(-15deg);
+}
+
+.rotate-active{
+    background-color: #f39c12;
+
+    &:active{
+        transform: rotate(-15deg);
+    }
+}
