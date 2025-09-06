@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de Media Query</h1>
+        <p>Redimensione a janela para ver o efeito</p>
+    </header>
+
+    <main>
+        <div class="box">Caixa 1</div>
+        <div class="box">Caixa 2</div>
+        <div class="box">Caixa 3</div>
+    </main>
+
+    <section class="explicacao">
+        <h2>O que são Media Queries</h2>
+        <p>as <strong>media queries</strong>permite que o dev aplique estilos diferentes dependendo das caracteristicas
+            do dispositivo ou tela. O caso mais comum é alterar o layout conforme a largura da tela, para que o site
+            fique responsivo e adptado a celulares, tables e monitores</p>
+        <ul>
+            <li><code>@media(max-qidht: 760px)</code>: Aplica estilos para as telas pequenas (smartphones e tablets em
+                modo retraro)</li>
+                <li><code>@media (min-widht: 1200px)</code>: Aplica estilos para telas grandes(monitores full hd,2k e 4k)</li>
+                <li>Também é possivel usar condições como <code>orientation: landscape</code>ou <code>prefers-colors-schema</code>.</li>
+        </ul>
+    </section>
+</body>
+
+</html>
